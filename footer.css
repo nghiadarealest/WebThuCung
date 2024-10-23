@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.header {
+    background-color: #1e1e1e;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.dog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.dog-container a {
+    margin: 0 10px;
+    z-index: 2;
+}
+
+.dog-container img {
+    width: 120px;
+    height: auto;
+    transition: transform 0.3s ease;
+    z-index: 2;
+}
+
+.dog-container img:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1e1e1e;
+    padding: 20px;
+}
+
+.contact, .social-media {
+    flex: 1;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.purple-line-1 {
+    width: 100%;
+    height: 5px;
+    background-color: #a0218e; /* Màu tím */
+    position: absolute;
+    top: 2%; 
+    left: 0;
+    transform: translateY(-50%); /* Điều chỉnh để đường nằm chính giữa */
+    z-index: 1;
+}
+.purple-line {
+    width: 100%;
+    height: 5px;
+    background-color: #a0218e; /* Màu tím */
+    position: absolute;
+    top: 20%; /* Đặt giữa trang web */
+    left: 0;
+    transform: translateY(-50%); /* Điều chỉnh để đường nằm chính giữa */
+    z-index: 1;
+}
+.facebook-icon {
+    width: 40px; /* Điều chỉnh kích thước biểu tượng */
+    height: auto;
+}
+.instagram-icon {
+    width: 40px; /* Điều chỉnh kích thước biểu tượng */
+    height: auto;
+}
+.youtube-icon {
+    width: 40px;
+    height: auto;
+}
+
