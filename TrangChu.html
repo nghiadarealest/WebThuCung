@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Family</title>
+    <link rel="stylesheet" href="Style Header.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/de2df74ac58363d51ae869c60a9a06be.jfif" alt="Pet Family Logo">
+        </div>
+
+        
+
+        <nav>
+            <ul class="menu">
+                <li><a href="TrangChu.html">Trang Chủ</a></li>
+                <li class="dropdown">
+                    <a href="#">Thú Cưng</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Chó Alaska Malamute</a></li>
+                        <li><a href="#">Chó Beagle</a></li>
+                        <li><a href="#">Chó Corgi</a></li>
+                        <li><a href="#">Chó Golden Retriever</a></li>
+                        <li><a href="#">Chó Husky Siberian</a></li>
+                        <li><a href="#">Chó Phốc Sóc - Pomeranian</a></li>
+                        <li><a href="#">Chó Poodle</a></li>
+                        <li><a href="#">Chó Pug</a></li>
+                        <li><a href="#">Chó Samoyed</a></li>
+                        <li><a href="#">Mèo Anh (Dài + Ngắn)</a></li>
+                        <li><a href="#">Mèo Chân Ngắn</a></li>
+                        <li><a href="#">Mèo Tai Cụp</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Phụ Kiện</a></li>
+            </ul>
+        </nav>
+
+        <!-- Nút mở giỏ hàng -->
+        <button class="cart-button" onclick="toggleCart()">Giỏ hàng</button>
+        
+    </header>
+
+    <div class="banner-container">
+        <div class="banner-content">
+            <img src="image/de2df74ac58363d51ae869c60a9a06be.jfif" alt="Banner">
+            <img src="image/azpet-banner-mobile-1-1024x543.jpg" alt="Banner">
+            <img src="image/banner-desktop-1.jpg" alt="Banner">
+            <img src="image/banner-desktop-2.jpg" alt="Banner">
+            <img src="image/Banner-Mobile-Cho-Canh.jpg" alt="Banner">
+            <img src="image/677129904.webp" alt="Banner">
+            <img src="image/Banner AGlobal (66).png" alt="Banner">
+            
+
+            <img src="image/de2df74ac58363d51ae869c60a9a06be.jfif" alt="Banner">
+            <img src="image/azpet-banner-mobile-1-1024x543.jpg" alt="Banner">
+            <img src="image/banner-desktop-1.jpg" alt="Banner">
+            <img src="image/banner-desktop-2.jpg" alt="Banner">
+            <img src="image/Banner-Mobile-Cho-Canh.jpg" alt="Banner">
+            <img src="image/677129904.webp" alt="Banner">
+            <img src="image/Banner AGlobal (66).png" alt="Banner">
+        </div>
+    
+        <div class="search-container">
+            <input type="text" placeholder="Tìm kiếm..." class="search-input">
+            <button class="search-button">
+                <img src="image/white-search-icon-button-png-img-735811696240431a0p3ex0i2v.png" alt="Search Icon">
+            </button>
+        </div>
+    
+
+    
+
+    <!-- Thanh bên giỏ hàng -->
+    <div class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">Giỏ hàng</div>
+    
+    <!-- Các mặt hàng trong giỏ -->
+    <div class="cart-item">
+        <img src="https://via.placeholder.com/50">
+        <div>
+            
+        </div>
+    </div>
+
+    <!-- Tổng cộng -->
+    <div class="cart-total">Tổng cộng: 0₫</div>
+    
+    <!-- Nút hành động -->
+    <div class="cart-actions">
+        <a href="giohang.html" class="view-cart">Xem giỏ hàng</a>
+        <button class="checkout">Thanh toán</button>
+    </div>
+</div>
+
+<script>
+    // JavaScript để mở và đóng thanh bên giỏ hàng
+    function toggleCart() {
+        document.getElementById("cartSidebar").classList.toggle("open");
+    }
+</script>
+
+</body>
+</html>
